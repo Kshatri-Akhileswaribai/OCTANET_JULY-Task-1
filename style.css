@@ -1,0 +1,167 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-image: url('');
+    background-size: cover;
+    color: hwb(0 0% 97% / 0.911);
+    padding: 100px;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+  }
+  
+  .hero button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .hero button:hover {
+    background-color: #eee;
+  }
+  
+  /* Body section styles */
+  .body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .course {
+    width: 30%;
+    margin-bottom: 50px;
+  }
+  
+  .course img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .course h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .course p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .course button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .course button:hover {
+    background-color: #555;
+  }
+  
+  /* Signup section styles */
+  .signup {
+    background-color: #eee;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .signup h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .signup form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .signup label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .signup input[type="text"],
+  .signup input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .signup button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .signup button[type="submit"]:hover {
+    background-color: #555;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
